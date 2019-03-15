@@ -1,5 +1,5 @@
 pipeline {
-	agent { bat docker 'python:3.7.1' }
+	agent any
     stages {
         stage('build') {
             steps {
